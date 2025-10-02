@@ -14,7 +14,7 @@ The scenario automated in this script is: <br>
   2. Create New Company
   3. Verify Company Detail
   4. Allure Reporting Required
-     
+<br>     
 ** Mobile automation :
   1. Login to Mobile App 
   2. Create Customer
@@ -97,7 +97,7 @@ Make sure the following package are installed:
   
 ## How to Run the Script
 1.  **Web** 
-    Run all web tests:
+    <br>Run all web tests:
     ```bash
     pytest web/tests --alluredir=allure-results
     ```
@@ -112,8 +112,8 @@ Make sure the following package are installed:
     
 2.  **Mobile**
     Connect device first, then install apk of eWork mobile app in device:
-    APK Name : ework - SFA (available in Google PlayStore)
-    Run Appium Server in terminal or command line:
+    <br>APK Name : ework - SFA (available in Google PlayStore)
+    <br>Run Appium Server in terminal or command line:
     ```bash
     appium
     ```
