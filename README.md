@@ -15,8 +15,8 @@ The scenario automated in this script is: <br>
   3. Verify Company Detail
   4. Allure Reporting Required
 <br>     
-** Mobile automation :
-  1. Login to Mobile App 
+** Mobile automation :<br>
+  1. Login to Mobile App <br>
   2. Create Customer
  
 Manual test case document here : 
