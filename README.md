@@ -9,7 +9,7 @@ It covers automation for both **Web (eSuite)** and **Mobile (eWork - SFA)** plat
 
 ## Automated Scenario
 The scenario automated in this script is: <br>
-** Web automation :
+** Web automation :<br>
   1. Login to eSuite 
   2. Create New Company
   3. Verify Company Detail
@@ -18,7 +18,7 @@ The scenario automated in this script is: <br>
 ** Mobile automation :<br>
   1. Login to Mobile App <br>
   2. Create Customer
- 
+ <br>< br>
 Manual test case document here : 
 ```bash
 https://docs.google.com/spreadsheets/d/1TwJE2ClQq7wQ2npPMQMVBCJKdN9sDpkrRjCWhK_Ly_c/edit?usp=sharing
