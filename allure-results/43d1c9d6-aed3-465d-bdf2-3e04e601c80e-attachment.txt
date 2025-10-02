@@ -1,0 +1,13 @@
+Industry Type:  Retail
+Company Type:  Marketplace
+Language:  English
+Country:  Indonesia
+Province:  DKI JAKARTA
+City:  JAKARTA PUSAT
+District:  TANAH ABANG
+Sub District:  BENDUNGAN HILIR
+Sub District:  BENDUNGAN HILIR
+Postal Code:  10210
+Branch Name:  Headquarter
+Company 'Jackson LLC' is successfully created and displayed in company list
+XPath: (//button[contains(text(), 'Manage')])[275]

@@ -1,0 +1,3 @@
+Industry Type:  Retail
+Company Type:  Marketplace
+Language:  English
