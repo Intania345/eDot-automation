@@ -90,7 +90,7 @@ Make sure the following package are installed:
 ## Install Dependencies
 1. Clone this repository
    ```bash
-   git clone https://github.com/<your-username>/edot-automation.git
+   git clone (https://github.com/Intania345/eDot-automation.git)
    ```
 2. Install dependencies of packages.
 3. Connect to device.
