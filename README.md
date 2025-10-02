@@ -111,7 +111,7 @@ Make sure the following package are installed:
     ```
     
 2.  **Mobile**
-    Connect device first, then install apk of eWork mobile app in device:
+    <br>Connect device first, then install apk of eWork mobile app in device:
     <br>APK Name : ework - SFA (available in Google PlayStore)
     <br>Run Appium Server in terminal or command line:
     ```bash
