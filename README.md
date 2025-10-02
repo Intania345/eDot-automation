@@ -93,7 +93,8 @@ Make sure the following package are installed:
    git clone https://github.com/<your-username>/edot-automation.git
    ```
 2. Install dependencies of packages.
-3. 
+3. Connect to device.
+4. Run Appium server with default port (for mobile test)
   
 ## How to Run the Script
 1.  **Web** 
