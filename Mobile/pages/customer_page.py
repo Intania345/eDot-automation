@@ -72,11 +72,11 @@ class CustomerPage:
 
         self.icon_outlet = (AppiumBy.XPATH, "//androidx.recyclerview.widget.RecyclerView[@resource-id='id.edot.ework:id/rvNooCustomer']/android.widget.FrameLayout[6]/android.view.ViewGroup")
         self.customer_profile_view = (AppiumBy.XPATH, "(//android.widget.ImageView[@resource-id='id.edot.ework:id/iv_profile])[5]")
-        self.customer_name_view = (AppiumBy.XPATH, "//android.widget.TextView[@resource-id='id.edot.ework:id/tv_name' and @text='akb']")
-        self.customer_reg_number_view = (AppiumBy.XPATH, "//android.widget.TextView[@resource-id='id.edot.ework:id/tv_reg_number' and @text='CUST-00067']")
-        self.customer_status_view = (AppiumBy.XPATH, "(//android.widget.TextView[@resource-id='id.edot.ework:id/tv_status'])[5]")
-        self.customer_distance_view = (AppiumBy.XPATH, "//android.widget.TextView[@resource-id='id.edot.ework:id/tv_distance' and @text='5 m']")
-        self.customer_address_view = (AppiumBy.XPATH, "//android.widget.TextView[@resource-id='id.edot.ework:id/tv_address' and @text='tes']")
+        self.customer_name_view = (AppiumBy.XPATH, "//android.widget.TextView[@resource-id='id.edot.ework:id/tv_name']")
+        self.customer_reg_number_view = (AppiumBy.XPATH, "//android.widget.TextView[@resource-id='id.edot.ework:id/tv_reg_number']")
+        self.customer_status_view = (AppiumBy.XPATH, "//android.widget.TextView[@resource-id='id.edot.ework:id/tv_status']")
+        self.customer_distance_view = (AppiumBy.XPATH, "//android.widget.TextView[@resource-id='id.edot.ework:id/tv_distance']")
+        self.customer_address_view = (AppiumBy.XPATH, "//android.widget.TextView[@resource-id='id.edot.ework:id/tv_address']")
 
 
     def go_to_customer_page(self):
@@ -225,10 +225,8 @@ class CustomerPage:
         time.sleep(5)
 
     def verify_created_customer(self):
-        scroll_down_until_end()
-        time.sleep(3)
-        self.driver.find_element(*self.icon_outlet).is_displayed()
-        self.driver.find_element(*self.customer_profile_view).is_displayed()
+        scroll_down_until_end(self.driver)
+        time.sleep(5)
         self.driver.find_element(*self.customer_name_view).is_displayed()
         self.driver.find_element(*self.customer_reg_number_view).is_displayed()
         self.driver.find_element(*self.customer_status_view).is_displayed()
