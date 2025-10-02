@@ -1,5 +1,5 @@
 # eWork - Take Home Test
-this repository for save all codes for **Take Home Test for QA Automation Engineer** position at **eDOT**.  
+This repository for save all codes for **Take Home Test for QA Automation Engineer** position at **eDOT**.  
 It covers automation for both **Web (eSuite)** and **Mobile (eWork - SFA)** platforms using:
 - Python  
 - Selenium + Pytest (for Web) 
