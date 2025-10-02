@@ -9,13 +9,13 @@ It covers automation for both **Web (eSuite)** and **Mobile (eWork - SFA)** plat
 
 ## Automated Scenario
 The scenario automated in this script is:
-* Web automation :
+** Web automation :
   1. Login to eSuite 
   2. Create New Company
   3. Verify Company Detail
   4. Allure Reporting Required
      
-* Mobile automation :
+** Mobile automation :
   1. Login to Mobile App 
   2. Create Customer
  
